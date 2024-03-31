@@ -69,3 +69,13 @@ nav#menu li:hover {
 nav#menu  h1 {
     display: none;
 }
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
