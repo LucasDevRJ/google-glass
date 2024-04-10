@@ -97,7 +97,13 @@
                     </p>
                     <p>
                         <label for="cCid">Cidade:</label>
-                        <input type="text" name="tCid" id="cCid" maxlength="80" placeholder="Brasília, São Paulo, Salvador..."/>
+                        <input type="text" name="tCid" id="cCid" placeholder="Sua Cidade" list="cidades"/>
+                        <datalist id="cidades">
+                            <option value="Rio de Janeiro"></option>
+                            <option value="Nova Iguaçu"></option>
+                            <option value="Niterói"></option>
+                            <option value="Belford Roxo"></option>
+                        </datalist>
                     </p>
                 </fieldset>
 
