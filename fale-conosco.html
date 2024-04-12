@@ -122,10 +122,33 @@
 
                 <fieldset id="pedido">
                     <legend>Quero um Google Glass</legend>
-                    Gostaria de adquirir um Google Glass quando disponível
-                    Cor:
-                    Quantidade:
-                    Preço Total: R$
+                    <p>
+                        Gostaria de adquirir um Google Glass quando disponível?
+                        <br/>
+                        <input type="radio" name="tResp" id="cSim" checked/>
+                        <label for="cSim">Sim</label>
+
+                        <input type="radio" name="tResp" id="cNao"/>
+                        <label for="cNao">Não</label>
+                    </p>
+
+                    <p>
+                        <label for="cCor">Cor:</label>
+                        <select name="tCor" id="cCor">
+                            <option value="Preto">Preto</option>
+                            <option value="Branco">Branco</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="cQua">Quantidade:</label>
+                        <input type="number" name="tQua" id="cQua" value="1" min="1" max="100"/>
+                    </p>
+
+                    <p>
+                        <label for="cQua">Preço Total: R$</label>
+                    </p>
+
                 </fieldset>
 
                 [BOTÃO ENVIAR]

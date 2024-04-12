@@ -149,6 +149,10 @@ article#noticia-principal h2 {
     margin: 10px 0px 10px 0px;
 }
 
+article#noticia-principal #filme {
+    width: 500px;
+}
+
 header#cabecalho-artigo h1 {
     font-family: "FonteLogo", sans-serif;
     font-size: 20pt;
@@ -234,6 +238,10 @@ aside#lateral h2 {
     font-size: 13pt;
     color: #ffffff;
     padding: 5px;
+}
+
+video#filme-noticias {
+    width: 350px;
 }
 
 footer#rodape {
