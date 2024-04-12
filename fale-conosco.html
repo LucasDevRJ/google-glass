@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="_css/form.css"/>
 </head>
 <script src="_javascript/funcoes.js"></script>
+<script>
+    function calc_total() {
+        let idQtd = document.getElementById("cQtd");
+        let qtd = parseInt(idQtd.value);
+        let valorGoogleGlass = 1500;
+        let qtdTotal = qtd * valorGoogleGlass;
+        document.getElementById("cTot").value = qtdTotal;
+    }
+</script>
 <body>
 <div id="interface">
     <header id="cabecalho">
@@ -39,7 +48,7 @@
                     <h3 class="direita">Atualizado em 01/Maio/2013</h3>
                 </hgroup>
             </header>
-            <form method="post" id="fContato" action="mailto:lucaspereiradelima2020@gmail.com">
+            <form method="post" id="fContato" action="mailto:lucaspereiradelima2020@gmail.com" oninput="calc_total();">
                 <fieldset id="usuario">
                     <legend>Identificação do Usuário</legend>
                     <p>
@@ -123,35 +132,30 @@
                 <fieldset id="pedido">
                     <legend>Quero um Google Glass</legend>
                     <p>
-                        Gostaria de adquirir um Google Glass quando disponível?
-                        <br/>
-                        <input type="radio" name="tResp" id="cSim" checked/>
-                        <label for="cSim">Sim</label>
+                        <input type="checkbox" name="tPed" id="cPed">
+                        <label for="cPed">Gostaria de adquirir um Google Glass quando disponível?</label>
 
-                        <input type="radio" name="tResp" id="cNao"/>
-                        <label for="cNao">Não</label>
                     </p>
 
                     <p>
                         <label for="cCor">Cor:</label>
-                        <select name="tCor" id="cCor">
-                            <option value="Preto">Preto</option>
-                            <option value="Branco">Branco</option>
-                        </select>
+                        <input type="color" name="tCor" id="cCor" value="#0000FF">
                     </p>
 
                     <p>
-                        <label for="cQua">Quantidade:</label>
-                        <input type="number" name="tQua" id="cQua" value="1" min="1" max="100"/>
+                        <label for="cQtd">Quantidade:</label>
+                        <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0"/>
                     </p>
 
                     <p>
-                        <label for="cQua">Preço Total: R$</label>
+                        <label for="cTot">Preço Total: R$</label>
+                        <input type="text" name="tTot" id="cTot" placeholder="Total a Pagar" readonly/>
                     </p>
 
                 </fieldset>
 
-                [BOTÃO ENVIAR]
+                <input type="submit" value="Enviar"/>
+                <input type="image" name="tEnviar" src="_imagens/botao-enviar.png"/>
             </form>
         </article>
     </section>
