@@ -24,7 +24,7 @@ https://github.com/LucasDevRJ/google-glass/assets/95040236/7545454e-e006-4625-97
 
 # 🛠️ Abrir e rodar o projeto
 1. Tenha uma IDE/Editor de texto como Sublime, Visual Studio e etc
-2. Baixe o <a href="https://github.com/LucasDevRJ/brasileirao/archive/refs/heads/main.zip">projeto</a>
+2. Baixe o <a href="https://github.com/LucasDevRJ/google-glass/archive/refs/heads/main.zip">projeto</a>
 3. Coloque o projeto na IDE
 4. Aproveite o projeto
 
