@@ -18,7 +18,7 @@ https://github.com/LucasDevRJ/google-glass/assets/95040236/7545454e-e006-4625-97
 - `Funcionalidade`: Apresentar o projeto Google Glass.
 
 # 📁 Acesso ao projeto
-**Faça o download do projeto <a href="https://github.com/LucasDevRJ/google-glass/archive/refs/heads/main.zip">aqui<a/> **
+**Faça o download do projeto <a href="https://github.com/LucasDevRJ/google-glass/archive/refs/heads/main.zip">aqui<a/>**
 **Coloque o projeto na sua IDE favorita**
 **Execute o projeto na sua IDE**
 
